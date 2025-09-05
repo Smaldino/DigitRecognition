@@ -1,0 +1,5 @@
+# Custom ignore 
+./trained_models/
+./old_files/
+.vscode/
+.qodo/
