@@ -31,14 +31,14 @@ def main():
     draw_grid()
     pygame.display.flip()
 
-    # # Load the trained model
-    # model = CNN()
-    # try:
-    #     model.load_state_dict(torch.load('mnist_cnn.pth', map_location=torch.device('cpu')))
-    #     print("Model loaded successfully.")
-    # except Exception as e:
-    #     print(f"Failed to load model: {e}")
-    # model.eval()
+    # Load the trained model
+    model = CNN()
+    try:
+        model.load_state_dict(torch.load('mnist_cnn.pth', map_location=torch.device('cpu')))
+        print("Model loaded successfully.")
+    except Exception as e:
+        print(f"Failed to load model: {e}")
+    model.eval()
 
     running = True
     while running:
