@@ -5,9 +5,7 @@ import torch.optim as optim
 import torchvision 
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
-import pygame
 import numpy as np
-import cv2
 import argparse
 
 from NN.CNN import CNN
